@@ -15,6 +15,7 @@ Data model(Data modelling and create relationships)
 Simple Macro/VBA
 
 ### Key Takeaways
-1. 61.4% of profit and revenue came from 2007 and 2008
-2. 90.6% of transactions came from 2007 and 2008
-3.
+1. 67.1% of profit came from 2007($42.55 Million) and 2008($42.16 Million)
+2. In general, weekday make up 72.0% of total profit
+3. Profit is the highest during the second quarter, accounting for 31% of total profits throughout the years
+4. 3.
