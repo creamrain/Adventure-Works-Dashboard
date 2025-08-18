@@ -14,9 +14,29 @@ Pivot Tables(Charts, Measures)
 Data model(Data modelling and creating relationships)
 Simple Macro/VBA
 
-Data model
+### Data model
 <img width="1655" height="759" alt="image" src="https://github.com/user-attachments/assets/6aae04e4-58e7-4740-a27b-8b5e35c3bb92" />
 
+### Data Cleaning and Preparation
+1. Data Loading and Inspection
+2. Check for row duplicates
+3. Replace "NA" for colours to "Unspecified"
+4. Create New Columns to assist with Analysis:
+- Full Name (Merging columns)
+- Age
+- Age Group (Conditional Column)
+- Total Revenue
+- Costs Of Goods Sold
+- Total Profit
+5. Added a measures table to group all the measures
+
+
+### Some Measures Used
+Average Customer Age =AVERAGE(DimCustomer[Customer Age])
+Number_Of_Transaction =COUNTROWS(FactInternetSales)
+Sold Products =DISTINCTCOUNT(FactInternetSales[ProductKey])
+Unsold Products =[All Products]-[Sold Products]
+% Profit Margin =DIVIDE([Sum of Total Profit],[Sum of Total Revenue],0)
 
 ### Key Takeaways
 1. 67.1% of profit came from 2007($42.55 Million) and 2008($42.16 Million).
@@ -47,3 +67,5 @@ There is a significant portion of unsold products as compared to sold products. 
 AdventureWorks can also take into consideration the top 5 most popular products and sell products similar to the top 5 products.
 
 Since almost half of their profits are from 50+ age group, AdventureWorks should cater more towards these customers.
+
+To continue growing its profits, AdventureWorks should try to lower its cost of goods and increase its sales by promoting products that are more favoured by its customers.
