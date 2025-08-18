@@ -32,11 +32,11 @@ Simple Macro/VBA
 
 
 ### Some Measures Used
-Average Customer Age =AVERAGE(DimCustomer[Customer Age])
-Number_Of_Transaction =COUNTROWS(FactInternetSales)
-Sold Products =DISTINCTCOUNT(FactInternetSales[ProductKey])
-Unsold Products =[All Products]-[Sold Products]
-% Profit Margin =DIVIDE([Sum of Total Profit],[Sum of Total Revenue],0)
+- Average Customer Age =AVERAGE(DimCustomer[Customer Age])
+- Number_Of_Transaction =COUNTROWS(FactInternetSales)
+- Sold Products =DISTINCTCOUNT(FactInternetSales[ProductKey])
+- Unsold Products =[All Products]-[Sold Products]
+- % Profit Margin =DIVIDE([Sum of Total Profit],[Sum of Total Revenue],0)
 
 ### Key Takeaways
 1. 67.1% of profit came from 2007($42.55 Million) and 2008($42.16 Million).
